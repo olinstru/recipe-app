@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --green-1: #DCEDC1;
+    --grey-1: #EDE9E9;
+    --orange-1: #FFD3B6;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--green-1);
+    padding: 100px;
+}
+
+.headerDiv {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 4em;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+section {
+    background-color: var(--grey-1);
+    width: 350px;
+    height: 100vh;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav a {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    height: 3Opx;
+}
+  
+  /* mouse over link */
+  nav a:hover {
+    color: green;
+  }
